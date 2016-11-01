@@ -1,0 +1,12 @@
+body { background-color: #cccccc; width:1000px;}
+h1 { padding-left: 50px; padding-right: 50px; text-align:center;}
+h2 { padding-left: 50px; padding-right: 50px; text-align:center;}
+p {font-family: Arial; font-size: 14px; padding-left: 50px; padding-right: 50px;text-align:center;}
+strong {font-size: 22px; padding-left: 50px; padding-right: 50px;}
+footer {font-size: 28px; padding-left: 50px; padding-right: 50px; text-align: center;}
+img { margin: 0 auto; float:none; padding-left: 100px;}
+table { margin: 0 auto;}
+#sitemap a { display: inline-block; height: 200px; width: 800px; text-decoration: none; float: none;}
+#sitemap a:hover { background-position:0 -54px;}
+#portraits a { display: inline-block; height: 200px; width: 800px; text-decoration: none; float: none;}
+#portraits a:hover { background-position:0 -54px;}
