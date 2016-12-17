@@ -1,0 +1,233 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(rgba(47,150,79,.2), rgba(255,255,255,1));
+}
+header {
+  text-align: center;
+}
+#logo{
+  width: 70vw;
+}
+nav{
+  background-color: #587498;
+  text-align: center;
+  width: 100vw;
+  margin: auto;
+  height: 4vh;
+  margin-bottom: 1.5vh;
+}
+nav ul {
+  list-style-type:none;
+  color: white;
+  background-color: #2F4F4F;
+}
+nav li {
+  display: inline-block;
+}
+
+li a, .dropbtn {
+  padding: 1.0vh 2vw;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+li:hover {
+  background-color:  #003366;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #e2e2e2
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+article{
+  margin: auto;
+  background-color: white;
+  width: 85vw;
+  min-height: 75vh;
+  text-align: left;
+  border: solid #2F4F4F;
+  border-radius: 25px;
+}
+article div {
+  padding: 1vw;
+}
+article h1{
+  text-align: center;
+}
+article .img{
+  width: 35vw;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin:2.25vw;
+  text-align: center;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+
+}
+iframe {
+  margin: auto;
+  display: block;
+  width: 50vw;
+  height: 28vw;
+}
+
+video {
+  margin: auto;
+  display: block;
+  width: 50vw;
+  height: auto;
+}
+audio {
+  margin: auto;
+  display: block;
+  border: solid 2px #587498;
+  border-radius: 3px 3px 3px 3px;
+  margin-bottom: 2vh;
+}
+
+.video {
+  text-align: center;
+}
+
+fieldset {
+  width: 40vw;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.learning {
+  margin: 2%;
+}
+.bigred{
+  font-size: 24px;
+  border-radius: 7px;
+  margin: auto;
+  display: block;
+  animation-name: bigred;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes bigred {
+    0%   {background-color: black; color: white;}
+    50%  {background-color: #587498; color: white;}
+    100% {background-color: grey; color: white;}
+}
+.temp-display {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin: auto;
+ margin-top: 2vw;
+}
+.temp-inside {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #D9D9D9;
+  border-top: 1px solid tan;
+}
+.inside-inside{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.input-boxes{
+  text-align: center;
+  padding: 5px;
+}
+.input-boxes-label{
+  background-color: lightbrown;
+}
+#flowchart{
+  width: 60vw;
+  display: block;
+  outline: none;
+  margin: auto;
+}
+
+.test-data{
+  margin: auto;
+  border: 2px solid #587498;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+}
+.test-data td,th{
+  border: 2px solid #D9D9D9;
+}
+.qty, .value{
+  width: 65px;
+  text-align: right;
+}
+
+#casino{
+  width: 60vw;
+}
+.program{
+  width: 90%;
+}
+.chips {
+  margin: auto;
+  border: 1.5px solid brown;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  text-align: right;
+}
+#flexcolumn{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.hiddenreceipts{
+  text-align: right;
+  width: 100px;
+}
+#addingreceipts{
+border: 1.5px solid brown;
+text-align: right;
+}
+.customerinfo{
+  margin: auto;
+  align-items: center;
+}
+.right{
+  text-align: right;
+}
+.oki_table{
+  margin: auto;
+  margin-top: 2vh;
+  border: 1.5px solid brown;
+
+}
+.oki_table td{
+  border: 1.5px solid brown;
+}

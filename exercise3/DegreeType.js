@@ -3,7 +3,7 @@ function EnterSwitch(message, first, second)
 {
   do
   {
-    var sEntry = window.prompt(message, first);
+    var sEntry = prompt(message, first);
     sEntry = sEntry.trim().toUpperCase().charAt(0);
     if(sEntry == first || sEntry == second)
       return sEntry;
