@@ -79,60 +79,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*Navigation*/
-ul.navi {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #6441a5;
-  font-size: 28px;
-}
 
-ul.navi li {
-  float: left;
-}
-ul.navi li.contact {
-  float: right;
-}
-
-li a, .dropbtn {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-border-right: 1px solid #587498;
-text-decoration: none;
-transition: 1s;
-}
-li a:hover, .drop:hover {
-background-color: #587498;
-color: #ffffff;
-}
-.active {
-    background-color: #587498;
-    border: 1px;
-}
-li.drop {
-    display: inline-block;
-}
-.dropstuff {
-  display: none;
-    position: absolute;
-    background-color: #587498;
-
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropstuff a {
-        color: white;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-}
-.drop:hover .dropstuff {
-    display: block;
-}
 
 /* Image Gallery */
 div.imgbox {
