@@ -39,16 +39,16 @@ display: block;
 color: white;
 text-align: center;
 padding: 14px 16px;
-border-right: 1px solid #7b5499;
+border-right: 1px solid #587498;
 text-decoration: none;
 transition: 1s;
 }
 li a:hover, .drop:hover {
-background-color: #7b5499;
+background-color: #587498;
 color: #ffffff;
 }
 .active {
-    background-color: #7b5499;
+    background-color: #587498;
     border: 1px;
 }
 li.drop {
@@ -57,7 +57,7 @@ li.drop {
 .dropstuff {
   display: none;
     position: absolute;
-    background-color: #6441a5;
+    background-color: #587498;
 
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -131,7 +131,7 @@ ul.ex1 {
 
 a.link {
   text-decoration:none;
-  color: #6441a5;
+  color: #587498;
   font-weight: bold;
 }
 
@@ -142,7 +142,7 @@ img.pcm {
 .ex2box {
   border: 3px solid;
   border-radius: 10px;
-  border-color: #6441a5;
+  border-color: #587498;
   width: 80%;
   margin: auto;
   padding: 15px;
@@ -181,7 +181,7 @@ img.pcm {
 }
 
 .tempbtn{
-  background-color: #6441a5;
+  background-color: #587498;
   border: 3px solid;
   border-radius: 5px;
   color: white;
@@ -197,7 +197,7 @@ img.pcm {
 .divflex{
   border: 3px solid;
   border-radius: 10px;
-  border-color: #6441a5;
+  border-color: #587498;
   width: 80%;
   margin: auto;
   padding: 5px;
@@ -209,7 +209,7 @@ textarea {
 }
 table{
   border: 3px solid;
-  border-color: #6441a5;
+  border-color: #587498;
   border-collapse: collapse;
   width: 60%;
   margin: auto;
@@ -223,4 +223,4 @@ table{
 }
 th,td{
   border: 3px solid;
-  border-color: #6441a5;
+  border-color: #587498;
