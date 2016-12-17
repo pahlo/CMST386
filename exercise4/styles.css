@@ -8,7 +8,7 @@ body {
 /*Header*/
 header {
     background: white;
-    background: linear-gradient(#ffffff, #6441a5);
+    background: linear-gradient(rgba(47,150,79,.2), rgba(255,255,255,1));
     font-size:64px;
     font-weight: 700;
 }
