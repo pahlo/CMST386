@@ -46,7 +46,7 @@
       oForm.style.backgroundColor = "#CFC";
       oFahr.value = "";
       oCels.value = "";
-      oImage.style.backgroundImage = "url(Warm.png)";
+      oImage.style.backgroundImage = "url(warm.png)";
     }
 
     function HotCold()
@@ -61,19 +61,19 @@
       if(oFahr.value <= 40)
       {
         oForm.style.backgroundColor = "#CCF";
-        oImage.style.backgroundImage = "url(Cold.png)";
+        oImage.style.backgroundImage = "url(cold.png)";
         if(chkAudio.checked) audCold.play();
       }
       else if(oFahr.value >= 80)
       {
         oForm.style.backgroundColor = "#FCC";
-        oImage.style.backgroundImage = "url(Hot.png)";
+        oImage.style.backgroundImage = "url(hot.png)";
         if(chkAudio.checked) audHot.play();
       }
       else
       {
         oForm.style.backgroundColor = "#CFC";
-        oImage.style.backgroundImage = "url(Warm.png)";
+        oImage.style.backgroundImage = "url(warm.png)";
         if(chkAudio.checked) audWarm.play();
       }
     }
